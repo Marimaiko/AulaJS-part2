@@ -1,0 +1,63 @@
+.formulario
+{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    background-color: #297373;
+    padding: 50px;
+}
+
+body
+{
+    text-align: center;
+    background-color: #85ffc7;
+}
+
+.caixa-input
+{
+    padding: 10px;
+    color: #ff8552;
+}
+
+.resultado
+{
+    background-color: #ff8552;
+}
+
+.resultadoCal
+{
+    background-color: #ff8552;
+}
+
+.instrucao
+{
+    text-align: justify;
+}
+
+.caixa-input2
+{
+    /* padding-bottom: 20px; */
+    padding: 30px;
+    color: #ff8552;
+}
+
+.button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #ff8552;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+
+.button:hover {background-color: #F07960}
+
+.button:active {
+  background-color: #F07960;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

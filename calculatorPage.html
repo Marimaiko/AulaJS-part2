@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="macronutrientes.js"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/Macronut.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 style="background-color: #39393a; color: #e6e6e6;">Calculadora macronutrientes</h1>
+
+    <div class="formulario">
+
+        <div class="input-container">
+            <h2>Descubra sua taxa metabólica basal</h2>
+            <div class="caixa-input">
+                <span>Nome</span>
+                <input id="innome" />
+            </div>
+            <div class="caixa-input">
+                <span>Idade</span>
+                <input id="inidade" />
+            </div>
+            <div class="caixa-input">
+                <span>Peso</span>
+                <input id="inpeso" />
+            </div>
+            <div class="caixa-input">
+                <span>Sexo</span>
+                <input id="insexo" /><br>
+                <span>(1) para Masculino e (2) para Feminino</span>
+            </div>
+
+            <div class="instrucao">
+                <h1 id="instrucao">Próximo passo: Descubra quantas calorias seu corpo necessita diariamente</h1>
+                <h3>Para dar continuidade, digite o número da opção que mais lhe define: <br></h3>
+                <ul>
+                    <li>Opção 1-Fica a maior parte do tempo sentada e não pratica atividades físicas programadas.</li>
+                    <li>Opção 2: Dia movimentado – dirige, cozinha, caminha até o ponto de ônibus, mas sem atividades
+                        físicas programadas OU dia-a-dia sedentário e exercícios físicos três vezes por semana, cerca de
+                        30 minutos por dia.</li>
+                    <li>Opção 3: Rotina movimentada e atividades físicas três vezes por semana, cerca de 30 minutos por
+                        dia.</li>
+                    <li>Opção 4: De uma a duas horas e meia de atividades físicas diárias.</li>
+                    <li>Opção 5: Atividade física diária por mais de três horas.</li>
+                </ul>
+            </div>
+
+            <div class="caixa-input2">
+                <span>Sua opção:</span>
+                <input id="in-opcao" />
+            </div>
+
+        </div>
+
+        <div class="botao">
+            <button class="button" onclick="minhaFuncao()">Clique para calcular </button>
+        </div>
+    </div>
+
+
+
+
+    <div class="resultado">
+        <h1 id="resultado">Resultado aqui</h1>
+    </div>
+
+
+
+    <div class="resultadoCal">
+        <h1 id="resultadoCal"></h1>
+    </div>
+
+</body>
+
+</html>
